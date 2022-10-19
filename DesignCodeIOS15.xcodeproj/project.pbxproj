@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0AA1CC2900433B006E363F /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0AA1CB2900433B006E363F /* Styles.swift */; };
 		4CEF9E0028FEF04500FCA48A /* DesignCodeIOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEF9DFF28FEF04500FCA48A /* DesignCodeIOS15App.swift */; };
 		4CEF9E0228FEF04500FCA48A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0128FEF04500FCA48A /* ContentView.swift */; };
 		4CEF9E0428FEF04500FCA48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0328FEF04500FCA48A /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C0AA1CB2900433B006E363F /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		4CEF9DFC28FEF04500FCA48A /* DesignCodeIOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeIOS15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEF9DFF28FEF04500FCA48A /* DesignCodeIOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeIOS15App.swift; sourceTree = "<group>"; };
 		4CEF9E0128FEF04500FCA48A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				4CEF9DFF28FEF04500FCA48A /* DesignCodeIOS15App.swift */,
 				4CEF9E0128FEF04500FCA48A /* ContentView.swift */,
+				4C0AA1CB2900433B006E363F /* Styles.swift */,
 				4CEF9E0328FEF04500FCA48A /* Assets.xcassets */,
 				4CEF9E0D28FFDE6100FCA48A /* DesignCodeIOS15.xcodeproj */,
 				4CEF9E0528FEF04500FCA48A /* Preview Content */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0AA1CC2900433B006E363F /* Styles.swift in Sources */,
 				4CEF9E0228FEF04500FCA48A /* ContentView.swift in Sources */,
 				4CEF9E0028FEF04500FCA48A /* DesignCodeIOS15App.swift in Sources */,
 			);
