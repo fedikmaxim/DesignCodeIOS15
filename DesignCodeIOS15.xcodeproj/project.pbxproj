@@ -11,7 +11,7 @@
 		4CEF9E0228FEF04500FCA48A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0128FEF04500FCA48A /* ContentView.swift */; };
 		4CEF9E0428FEF04500FCA48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0328FEF04500FCA48A /* Assets.xcassets */; };
 		4CEF9E0728FEF04500FCA48A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0628FEF04500FCA48A /* Preview Assets.xcassets */; };
-		4CEF9E0E28FFDE6100FCA48A /* DesignCodeIOS15 in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0D28FFDE6100FCA48A /* DesignCodeIOS15 */; };
+		4CEF9E0E28FFDE6100FCA48A /* DesignCodeIOS15.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0D28FFDE6100FCA48A /* DesignCodeIOS15.xcodeproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		4CEF9E0128FEF04500FCA48A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4CEF9E0328FEF04500FCA48A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CEF9E0628FEF04500FCA48A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4CEF9E0D28FFDE6100FCA48A /* DesignCodeIOS15 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DesignCodeIOS15; sourceTree = "<group>"; };
+		4CEF9E0D28FFDE6100FCA48A /* DesignCodeIOS15.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DesignCodeIOS15.xcodeproj; path = ../DesignCodeIOS15.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +41,7 @@
 				4CEF9DFD28FEF04500FCA48A /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		4CEF9DFD28FEF04500FCA48A /* Products */ = {
 			isa = PBXGroup;
@@ -56,7 +57,7 @@
 				4CEF9DFF28FEF04500FCA48A /* DesignCodeIOS15App.swift */,
 				4CEF9E0128FEF04500FCA48A /* ContentView.swift */,
 				4CEF9E0328FEF04500FCA48A /* Assets.xcassets */,
-				4CEF9E0D28FFDE6100FCA48A /* DesignCodeIOS15 */,
+				4CEF9E0D28FFDE6100FCA48A /* DesignCodeIOS15.xcodeproj */,
 				4CEF9E0528FEF04500FCA48A /* Preview Content */,
 			);
 			path = DesignCodeIOS15;
@@ -130,7 +131,7 @@
 			files = (
 				4CEF9E0728FEF04500FCA48A /* Preview Assets.xcassets in Resources */,
 				4CEF9E0428FEF04500FCA48A /* Assets.xcassets in Resources */,
-				4CEF9E0E28FFDE6100FCA48A /* DesignCodeIOS15 in Resources */,
+				4CEF9E0E28FFDE6100FCA48A /* DesignCodeIOS15.xcodeproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +257,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -287,7 +289,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ISITLab.DesignCodeIOS15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -320,7 +322,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ISITLab.DesignCodeIOS15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
