@@ -17,6 +17,7 @@
 		4CEF9E0428FEF04500FCA48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0328FEF04500FCA48A /* Assets.xcassets */; };
 		4CEF9E0728FEF04500FCA48A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0628FEF04500FCA48A /* Preview Assets.xcassets */; };
 		4CEF9E0E28FFDE6100FCA48A /* DesignCodeIOS15.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0D28FFDE6100FCA48A /* DesignCodeIOS15.xcodeproj */; };
+		4CFF42102907C6E3004D2040 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF420F2907C6E3004D2040 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4CEF9E0328FEF04500FCA48A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CEF9E0628FEF04500FCA48A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4CEF9E0D28FFDE6100FCA48A /* DesignCodeIOS15.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DesignCodeIOS15.xcodeproj; path = ../DesignCodeIOS15.xcodeproj; sourceTree = "<group>"; };
+		4CFF420F2907C6E3004D2040 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				4CEF9E0128FEF04500FCA48A /* ContentView.swift */,
 				4C4BBD902901489D00A70B7E /* AccountView.swift */,
 				4CEA98752906B6BE00DFD1A4 /* TabBar.swift */,
+				4CFF420F2907C6E3004D2040 /* Tab.swift */,
 				4CCCD44C2902BA97005C6519 /* BlobView.swift */,
 				4CCCD44A2902AD96005C6519 /* HexagonView.swift */,
 				4C0AA1CB2900433B006E363F /* Styles.swift */,
@@ -171,6 +174,7 @@
 				4C4BBD912901489D00A70B7E /* AccountView.swift in Sources */,
 				4CCCD44B2902AD96005C6519 /* HexagonView.swift in Sources */,
 				4C0AA1CC2900433B006E363F /* Styles.swift in Sources */,
+				4CFF42102907C6E3004D2040 /* Tab.swift in Sources */,
 				4CCCD44D2902BA97005C6519 /* BlobView.swift in Sources */,
 				4CEF9E0228FEF04500FCA48A /* ContentView.swift in Sources */,
 				4CEF9E0028FEF04500FCA48A /* DesignCodeIOS15App.swift in Sources */,
