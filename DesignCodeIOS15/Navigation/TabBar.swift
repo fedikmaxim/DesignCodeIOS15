@@ -9,7 +9,6 @@ import SwiftUI
 
 struct TabBar: View {
     @AppStorage("selectedTab") var selectedTab: Tab = .home
-    
     @State var color: Color = .teal
     @State var tabItemWidth: CGFloat = 0
     
@@ -20,8 +19,7 @@ struct TabBar: View {
         .padding(.horizontal, 8)
         .padding(.top, 14)
         .frame(height: 88, alignment: .top)
-        .background(.ultraThinMaterial, in:
-            RoundedRectangle(cornerRadius: 34, style: .continuous))
+        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 34, style: .continuous))
         .background(
             background
         )
@@ -31,16 +29,14 @@ struct TabBar: View {
         .strokeStyle(cornerRadius: 34)
         .frame(maxHeight: .infinity, alignment: .bottom)
         .ignoresSafeArea()
-        }
+    }
     
     var buttons: some View {
         ForEach(tabItems) { item in
             Button {
-                withAnimation(.spring(response: 0.3,
-                    dampingFraction: 0.7)) {
-                    selectedTab = item.tab 
+                withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
+                    selectedTab = item.tab
                     color = item.color
-                
                 }
             } label: {
                 VStack(spacing: 0) {
@@ -58,17 +54,16 @@ struct TabBar: View {
             .blendMode(selectedTab == item.tab ? .overlay : .normal)
             .overlay(
                 GeometryReader { proxy in
-                    Color.clear.preference(key:
-                        TabPreferenceKey.self,
-                        value: proxy.size.width)
+//                            Text("\(proxy.size.width)")
+                    Color.clear.preference(key: TabPreferenceKey.self, value: proxy.size.width)
                 }
             )
-            .onPreferenceChange(TabPreferenceKey.self) {
-                value in
+            .onPreferenceChange(TabPreferenceKey.self) { value in
                 tabItemWidth = value
             }
         }
     }
+    
     var background: some View {
         HStack {
             if selectedTab == .library { Spacer() }
@@ -87,6 +82,7 @@ struct TabBar: View {
         }
         .padding(.horizontal, 8)
     }
+    
     var overlay: some View {
         HStack {
             if selectedTab == .library { Spacer() }
@@ -101,7 +97,6 @@ struct TabBar: View {
                 .cornerRadius(3)
                 .frame(width: tabItemWidth)
                 .frame(maxHeight: .infinity, alignment: .top)
-                
             if selectedTab == .home { Spacer() }
             if selectedTab == .explore {
                 Spacer()
@@ -116,5 +111,6 @@ struct TabBar: View {
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
         TabBar()
+.previewInterfaceOrientation(.portrait)
     }
 }

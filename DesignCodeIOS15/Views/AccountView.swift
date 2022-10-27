@@ -19,11 +19,12 @@ struct AccountView: View {
                 menu
                 
                 links
-                            }
+            }
             .listStyle(.insetGrouped)
             .navigationTitle("Account")
         }
     }
+    
     var profile: some View {
         VStack(spacing: 8) {
             Image(systemName: "person.crop.circle.fill.badge.checkmark")
@@ -39,7 +40,7 @@ struct AccountView: View {
                 )
                 .background(
                     BlobView()
-                        .offset(x: 200,y: 0)
+                        .offset(x: 200, y: 0)
                         .scaleEffect(0.6)
                 )
             Text("Meng To")
@@ -53,8 +54,8 @@ struct AccountView: View {
         }
         .frame(maxWidth: .infinity)
         .padding()
-        
     }
+    
     var menu: some View {
         Section {
             NavigationLink(destination: HomeView()) {
@@ -67,17 +68,19 @@ struct AccountView: View {
                 Label("Help", systemImage: "questionmark")
             }
         }
-        .foregroundColor(.primary)
         .accentColor(.primary)
         .listRowSeparatorTint(.blue)
         .listRowSeparator(.hidden)
+        .foregroundColor(.primary)
+        
     }
+    
     var links: some View {
         Section {
             if !isDeleted {
                 Link(destination: URL(string: "https://apple.com")!) {
                     HStack {
-                        Label("Website", systemImage: "house" )
+                        Label("Website", systemImage: "house")
                         Spacer()
                         Image(systemName: "link")
                             .foregroundColor(.secondary)
@@ -88,25 +91,26 @@ struct AccountView: View {
                         Label("Delete", systemImage: "trash")
                     }
                     .tint(.red)
-                   pinButton
+                    pinButton
                 }
             }
             Link(destination: URL(string: "https://youtube.com")!) {
                 HStack {
-                    Label("YouTube", systemImage: "tv" )
+                    Label("YouTube", systemImage: "tv")
                     Spacer()
                     Image(systemName: "link")
                         .foregroundColor(.secondary)
                 }
             }
-            .swipeActions() {
+            .swipeActions {
                 pinButton
             }
         }
-        .foregroundColor(.primary)
         .accentColor(.primary)
         .listRowSeparator(.hidden)
+        .foregroundColor(.primary)
     }
+    
     var pinButton: some View {
         Button { isPinned.toggle() } label: {
             if isPinned {
