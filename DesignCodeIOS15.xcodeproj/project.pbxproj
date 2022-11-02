@@ -16,6 +16,7 @@
 		4CCCD44B2902AD96005C6519 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCD44A2902AD96005C6519 /* HexagonView.swift */; };
 		4CCCD44D2902BA97005C6519 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCD44C2902BA97005C6519 /* BlobView.swift */; };
 		4CEA98762906B6BE00DFD1A4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA98752906B6BE00DFD1A4 /* TabBar.swift */; };
+		4CEB9398290FF1EA00F49B6B /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB9397290FF1EA00F49B6B /* AnimatableFontModifier.swift */; };
 		4CEF9E0028FEF04500FCA48A /* DesignCodeIOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEF9DFF28FEF04500FCA48A /* DesignCodeIOS15App.swift */; };
 		4CEF9E0228FEF04500FCA48A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0128FEF04500FCA48A /* ContentView.swift */; };
 		4CEF9E0428FEF04500FCA48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF9E0328FEF04500FCA48A /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		4CCCD44A2902AD96005C6519 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
 		4CCCD44C2902BA97005C6519 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
 		4CEA98752906B6BE00DFD1A4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		4CEB9397290FF1EA00F49B6B /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
 		4CEF9DFC28FEF04500FCA48A /* DesignCodeIOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeIOS15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEF9DFF28FEF04500FCA48A /* DesignCodeIOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeIOS15App.swift; sourceTree = "<group>"; };
 		4CEF9E0128FEF04500FCA48A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				4C0AA1CB2900433B006E363F /* Styles.swift */,
+				4CEB9397290FF1EA00F49B6B /* AnimatableFontModifier.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				4CEF9E0028FEF04500FCA48A /* DesignCodeIOS15App.swift in Sources */,
 				4C19E0C5290BF7D300F31546 /* PreferenceKeys.swift in Sources */,
 				4CEA98762906B6BE00DFD1A4 /* TabBar.swift in Sources */,
+				4CEB9398290FF1EA00F49B6B /* AnimatableFontModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
